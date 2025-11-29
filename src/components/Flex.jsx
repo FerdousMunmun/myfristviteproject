@@ -7,5 +7,3 @@ const Flex = ({children,className}) => {
 }
 
 export default Flex
-
-
