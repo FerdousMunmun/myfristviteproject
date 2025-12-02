@@ -1,12 +1,13 @@
-import Header from "../Layouts/Header"
+import Banner from "../Layouts/Banner";
+
 
 
 const Home = () => {
   return (
     <>
-    <Header/>
+ <Banner/>
     </>
-  )
-}
+  );
+};
 
 export default Home

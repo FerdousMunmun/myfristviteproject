@@ -1,23 +1,28 @@
 
 import './App.css'
-import Button from './components/Button';
-import Container from './components/Container';
-import Flex from './components/Flex';
+import RootLayouts from './Components/Layouts/RootLayouts';
+import About from './Components/Pages/About';
+import Error from './Components/Pages/Error';
+
 import Home from './Components/Pages/Home';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
  
 
   return (
     <>
-     <Container>
-      <Flex>
-        <Home/>
-        <Button/>
-      </Flex>
-     </Container>
+   
+        <Routes>
+      <Route path="/" element={<RootLayouts />}>
+        <Route index element={<Home />} />          
+        <Route path="/about" element={<About/>} /> 
+        <Route path="*" element={<Error />} /> 
+      </Route>
+    </Routes>
+      
     </>
-  )
+  );
 }
 
-export default App
+export default App;
