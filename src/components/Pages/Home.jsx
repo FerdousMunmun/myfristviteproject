@@ -1,4 +1,4 @@
-import Banner from "../Layouts/Banner";
+import Banner from "../layouts/Banner";
 
 
 

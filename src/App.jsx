@@ -1,6 +1,6 @@
 
 import './App.css'
-import RootLayouts from './Components/Layouts/RootLayouts';
+import RootLayouts from './Components/layouts/RootLayouts';
 import About from './Components/Pages/About';
 import Error from './Components/Pages/Error';
 
