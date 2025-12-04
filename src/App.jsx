@@ -1,8 +1,8 @@
 
 import './App.css'
-import RootLayouts from './Components/layouts/RootLayouts';
-import About from './Components/Pages/About';
-import Error from './Components/Pages/Error';
+import RootLayouts from '/src/Components/layouts/RootLayouts';
+import About from '/src/Components/Pages/About';
+import Error from '/src/Components/Pages/Error';
 
 import Home from './Components/Pages/Home';
 import { Routes, Route } from 'react-router-dom';
